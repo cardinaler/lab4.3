@@ -16,23 +16,12 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 namespace WpfApp1
 {
-
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    class Phone
-    {
-        public string Title { get; set; }
-        public string Company { get; set; }
-        public int Price { get; set; }
-    }
     public partial class MainWindow : Window
     {
         ViewData VD;
         public MainWindow()
         {
             InitializeComponent();
-
             VD = new ViewData();
             BindConnections(VD); // Установка привязки с элементами управления
         }
@@ -40,10 +29,7 @@ namespace WpfApp1
 
         public void BindConnections(ViewData VD)
         {
-
-            // Написать привязку к выбору функции (айди)
-
-            Binding Binding_DAFunctionID = new Binding();
+            Binding Binding_DAFunctionID = new Binding(); // Выбор функции
             Binding_DAFunctionID.Source = VD;
             Binding_DAFunctionID.Path = new PropertyPath("DA_FunctionID");
             DAFunctionComboBox.SetBinding(ComboBox.SelectedIndexProperty, Binding_DAFunctionID);
@@ -60,7 +46,6 @@ namespace WpfApp1
             Binding_DANodesNum.Source = VD;
             Binding_DANodesNum.Path = new PropertyPath("DA_NodesNum");
             DANodesNumBox.SetBinding(TextBox.TextProperty, Binding_DANodesNum);
-
 
             Binding Binding_SDNodesNum = new Binding(); // Ввод числа узлов сглаживающего сплайна
             Binding_SDNodesNum.Source = VD;
@@ -128,7 +113,6 @@ namespace WpfApp1
             {
                 MessageBox.Show(ex.Message);
             }
-
         }
 
         private void DataFromFileItem_Click(object sender, RoutedEventArgs e)

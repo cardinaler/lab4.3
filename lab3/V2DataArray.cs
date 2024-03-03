@@ -204,7 +204,5 @@ namespace lab3
                 return false;
             }
         }
-
-    };
-
+    }
 }

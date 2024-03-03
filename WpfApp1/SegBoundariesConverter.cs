@@ -37,44 +37,39 @@ namespace WpfApp1
                 {
                     if (str[i] != ' ')
                     {
-                        id1 = i;
+                        id1 = i; // Начала первого числа
                         break;
                     }
                 }
                 for (int i = id1; i < len; ++i)
                 {
-                    if (str[i] == ' ')
+                    if (str[i] == ' ') // Конец первого числа
                     {
                         id2 = i;
                         break;
                     }
                 }
-                num = str.Substring(id1, id2 - id1 + 1);
+                num = str.Substring(id1, id2 - id1 + 1); // Первое число
                 edges[0] = Int32.Parse(num);
                 for (int i = id2; i < len; ++i)
                 {
                     if (str[i] != ' ')
                     {
-                        id2 = i;
+                        id2 = i; // Начало второго числа
                         break;
                     }
                 }
-                num = str.Substring(id2, len - id2);
-
+                num = str.Substring(id2, len - id2); // Второе число
                 edges[1] = Int32.Parse(num);
-                return edges;
 
+                return edges;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
-                double[] k = { 0, 0 };
-                return k;
+                double[] zero = { 0, 0 };
+                return zero;
             }
-
-
-
-
         }
     }
 }
