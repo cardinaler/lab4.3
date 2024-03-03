@@ -27,9 +27,7 @@ namespace WpfApp1
         public double SD_BreakConditionNorma { get; set; } // Значение нормы невязки для остановки
         public int SD_MaxItersNum { get; set; } // Масимальное число итераций
 
-        bool IsDataLoaded;
-        ////////////////////////////////Дописать
-        
+        bool IsDataLoaded;        
         public ViewData()
         {
             DA_SegBoundaries = new double[2];

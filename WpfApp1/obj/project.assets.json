@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusla\\Desktop\\Текущая_учёба\\c#\\lab_4.3\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "C:\\Users\\rusla\\Desktop\\Текущая_учёба\\c#\\lab4.3\\WpfApp1\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "C:\\Users\\rusla\\Desktop\\Текущая_учёба\\c#\\lab_4.3\\WpfApp1\\WpfApp1.csproj",
+      "projectPath": "C:\\Users\\rusla\\Desktop\\Текущая_учёба\\c#\\lab4.3\\WpfApp1\\WpfApp1.csproj",
       "packagesPath": "C:\\Users\\rusla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusla\\Desktop\\Текущая_учёба\\c#\\lab_4.3\\WpfApp1\\obj\\",
+      "outputPath": "C:\\Users\\rusla\\Desktop\\Текущая_учёба\\c#\\lab4.3\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rusla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\rusla\\Desktop\\Текущая_учёба\\c#\\lab_4.3\\lab3\\lab3.csproj": {
-              "projectPath": "C:\\Users\\rusla\\Desktop\\Текущая_учёба\\c#\\lab_4.3\\lab3\\lab3.csproj"
+            "C:\\Users\\rusla\\Desktop\\Текущая_учёба\\c#\\lab4.3\\lab3\\lab3.csproj": {
+              "projectPath": "C:\\Users\\rusla\\Desktop\\Текущая_учёба\\c#\\lab4.3\\lab3\\lab3.csproj"
             }
           }
         }

@@ -21,8 +21,6 @@ namespace WpfApp1
         {
             try
             {
-
-
                 string str = ((string)value);
                 int len = str.Length;
                 double[] edges = new double[2];

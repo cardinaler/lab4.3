@@ -68,3 +68,13 @@ C:\Users\rusla\Desktop\Текущая_учёба\c#\lab_4.3\lab3\obj\Debug\refin
 C:\Users\rusla\Desktop\Текущая_учёба\c#\lab_4.3\lab3\obj\Debug\lab3.pdb
 C:\Users\rusla\Desktop\Текущая_учёба\c#\lab_4.3\lab3\obj\Debug\lab3.genruntimeconfig.cache
 C:\Users\rusla\Desktop\Текущая_учёба\c#\lab_4.3\lab3\obj\Debug\ref\lab3.dll
+C:\Users\rusla\Desktop\Текущая_учёба\c#\lab4.3\lab3\obj\Debug\lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rusla\Desktop\Текущая_учёба\c#\lab4.3\lab3\obj\Debug\lab3.AssemblyInfoInputs.cache
+C:\Users\rusla\Desktop\Текущая_учёба\c#\lab4.3\lab3\obj\Debug\lab3.AssemblyInfo.cs
+C:\Users\rusla\Desktop\Текущая_учёба\c#\lab4.3\lab3\obj\Debug\lab3.csproj.CoreCompileInputs.cache
+C:\Users\rusla\Desktop\Текущая_учёба\c#\lab4.3\lab3\obj\Debug\lab3.sourcelink.json
+C:\Users\rusla\Desktop\Текущая_учёба\c#\lab4.3\lab3\obj\Debug\lab3.dll
+C:\Users\rusla\Desktop\Текущая_учёба\c#\lab4.3\lab3\obj\Debug\refint\lab3.dll
+C:\Users\rusla\Desktop\Текущая_учёба\c#\lab4.3\lab3\obj\Debug\lab3.pdb
+C:\Users\rusla\Desktop\Текущая_учёба\c#\lab4.3\lab3\obj\Debug\lab3.genruntimeconfig.cache
+C:\Users\rusla\Desktop\Текущая_учёба\c#\lab4.3\lab3\obj\Debug\ref\lab3.dll
